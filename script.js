@@ -111,7 +111,7 @@ function show_flashy_win_screen() {
 function apply_card_event_handlers() {
 
     $('.card').click(function(){
-        //console.log("this is ", this);
+        console.log("this is ", this);
         var that = $(this);
         card_clicked(that);
     });
